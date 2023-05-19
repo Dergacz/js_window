@@ -16,7 +16,6 @@ const timer = (id, deadline) => {
   };
 
   const setClock = (selector, endTime) => {
-    const timer = document.querySelector(selector);
     const days = document.querySelector('#days');
     const hours = document.querySelector('#hours');
     const minutes = document.querySelector('#minutes');
